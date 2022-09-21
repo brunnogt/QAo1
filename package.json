@@ -1,0 +1,23 @@
+{
+  "name": "qa01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teste.js",
+  "scripts": {
+    "test": "node index.test | tap-spec "
+  },
+  "repository":{
+    "type":"git", 
+    "url": "https://github.com/brunnogt/QAo1.git"
+  },
+  "author": "bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunnogt/QAo1/issues"
+  },
+  "homepage": "https://github.com/brunnogt/QAo1#readme",
+  "dependencies": {
+    "tap-spec":"^5.0.0",
+    "tape":"^5.5.3"
+  }
+}
